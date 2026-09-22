@@ -1,0 +1,23 @@
+# requirements.txt
+# Student Career Success Analysis — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Core data science ─────────────────────────────────────────────────────────
+pandas==3.0.2
+numpy==2.4.4
+
+# ── Visualisation (static charts — analysis.py) ───────────────────────────────
+matplotlib==3.10.9
+seaborn==0.13.2
+
+# ── Interactive visualisation (Streamlit dashboard — app.py) ──────────────────
+plotly==6.1.2
+
+# ── Streamlit dashboard ────────────────────────────────────────────────────────
+streamlit==1.46.0
+
+# ── Static chart rendering (prevents charts from growing in browser) ──────────
+kaleido==0.2.1
+
+# ── Document generation (Project_Documentation.docx) ─────────────────────────
+python-docx==1.1.2
